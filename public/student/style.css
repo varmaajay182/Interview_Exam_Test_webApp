@@ -1,0 +1,63 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+    /* Adjust the gap after text */
+}
+
+.nav-item {
+    margin: 0% 5%;
+
+    height: 100%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #2ec866;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #2ec866;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.form-control {
+    margin-right: 10px;
+    /* Default margin around the search bar */
+}
+
+.fa-bell {
+    margin-right: 10px;
+    margin-left: 10px;
+    /* Default margin around the bell icon */
+}
+.custom-card:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        /* Stack elements vertically on smaller screens */
+    }
+
+    .form-control,
+    .fa-bell {
+        margin-right: 0;
+        /* Remove margin on smaller screens */
+        margin-bottom: 10px;
+        /* Add margin bottom to separate elements vertically */
+    }
+}
